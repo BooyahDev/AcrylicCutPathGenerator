@@ -2,8 +2,8 @@ services:
   app:
     build: ./
     ports:
-      - 8000:8000
+      - 8050:8000
   webui:
     build: ./webui
     ports:
-      - 3000:3000
+      - 3050:3000
