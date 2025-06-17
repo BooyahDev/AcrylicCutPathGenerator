@@ -3,4 +3,7 @@ services:
     build: ./
     ports:
       - 8000:8000
-
+  webui:
+    build: ./webui
+    ports:
+      - 3000:3000
