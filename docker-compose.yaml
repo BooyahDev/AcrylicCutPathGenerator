@@ -1,9 +1,11 @@
 services:
   app:
     build: ./
+    restart: always
     ports:
       - 8050:8000
   webui:
     build: ./webui
+    restart: always
     ports:
       - 3050:3000
